@@ -1,0 +1,35 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2.2 (lin64) Build 2348494 Mon Oct  1 18:25:39 MDT 2018
+| Date         : Wed Dec 19 18:38:45 2018
+| Host         : Aragorn running 64-bit Ubuntu 18.04.1 LTS
+| Command      : report_drc -file bip_drc_opted.rpt -pb bip_drc_opted.pb -rpx bip_drc_opted.rpx
+| Design       : bip
+| Device       : xc7a35ticpg236-1L
+| Speed File   : -1L
+| Design State : Synthesized
+------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 0
++------+----------+-------------+------------+
+| Rule | Severity | Description | Violations |
++------+----------+-------------+------------+
++------+----------+-------------+------------+
+
+2. REPORT DETAILS
+-----------------
+

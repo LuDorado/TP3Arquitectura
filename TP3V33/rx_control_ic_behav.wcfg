@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="rx_control_ic_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="rx_control_ic" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1469425000000fs"></ZoomStartTime>
+      <ZoomEndTime time="2198425000001fs"></ZoomEndTime>
+      <Cursor1Time time="1590935000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="150"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject type="logic" fp_name="/rx_control_ic/finish_prog">
+      <obj_property name="ElementShortName">finish_prog</obj_property>
+      <obj_property name="ObjectShortName">finish_prog</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rx_control_ic/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rx_control_ic/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rx_control_ic/rx">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rx_control_ic/uut/comm_module/Receptor/d_bits_rcvd">
+      <obj_property name="ElementShortName">d_bits_rcvd[2:0]</obj_property>
+      <obj_property name="ObjectShortName">d_bits_rcvd[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rx_control_ic/uut/comm_module/RxInterface/out_data">
+      <obj_property name="ElementShortName">out_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rx_control_ic/uut/comm_module/RxInterface/empty">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rx_control_ic/uut/ic_bus/o_rd_uart">
+      <obj_property name="ElementShortName">o_rd_uart</obj_property>
+      <obj_property name="ObjectShortName">o_rd_uart</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rx_control_ic/uut/ic_bus/crnt_state">
+      <obj_property name="ElementShortName">crnt_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">crnt_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rx_control_ic/uut/ic_bus/o_cpu_en">
+      <obj_property name="ElementShortName">o_cpu_en</obj_property>
+      <obj_property name="ObjectShortName">o_cpu_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rx_control_ic/uut/processor/programMemo/o_data">
+      <obj_property name="ElementShortName">o_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rx_control_ic/uut/ic_bus/crnt_state">
+      <obj_property name="ElementShortName">crnt_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">crnt_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rx_control_ic/uut/cycleCounter/strt_cnt">
+      <obj_property name="ElementShortName">strt_cnt</obj_property>
+      <obj_property name="ObjectShortName">strt_cnt</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rx_control_ic/uut/cycleCounter/count">
+      <obj_property name="ElementShortName">count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">count[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/rx_control_ic/uut/ic_bus/i_op_finish">
+      <obj_property name="ElementShortName">i_op_finish</obj_property>
+      <obj_property name="ObjectShortName">i_op_finish</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rx_control_ic/uut/ic_bus/data_alu_out">
+      <obj_property name="ElementShortName">data_alu_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_alu_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rx_control_ic/T">
+      <obj_property name="ElementShortName">T[31:0]</obj_property>
+      <obj_property name="ObjectShortName">T[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/rx_control_ic/uut/salida">
+      <obj_property name="ElementShortName">salida[7:0]</obj_property>
+      <obj_property name="ObjectShortName">salida[7:0]</obj_property>
+   </wvobject>
+</wave_config>

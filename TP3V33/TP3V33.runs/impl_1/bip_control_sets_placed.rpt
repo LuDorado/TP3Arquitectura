@@ -1,0 +1,75 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2.2 (lin64) Build 2348494 Mon Oct  1 18:25:39 MDT 2018
+| Date         : Wed Dec 19 18:38:48 2018
+| Host         : Aragorn running 64-bit Ubuntu 18.04.1 LTS
+| Command      : report_control_sets -verbose -file bip_control_sets_placed.rpt
+| Design       : bip
+| Device       : xc7a35ti
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     9 |
+| Unused register locations in slices containing registers |    20 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            2 |
+|      8 |            2 |
+|    16+ |            5 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              24 |            5 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              42 |           10 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              66 |           11 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------------+------------------------------------------+------------------+------------------+----------------+
+|              Clock Signal             |               Enable Signal              | Set/Reset Signal | Slice Load Count | Bel Load Count |
++---------------------------------------+------------------------------------------+------------------+------------------+----------------+
+|  clk_IBUF_BUFG                        | processor/programMemo/new_op_ok          | rst_IBUF         |                1 |              2 |
+|  processor/controlUnit/deco/op_ok_reg |                                          |                  |                1 |              2 |
+|  clk_IBUF_BUFG                        | comm_module/Receptor/n_ticks_strt_act    | rst_IBUF         |                3 |              8 |
+|  clk_IBUF_BUFG                        | processor/programMemo/pc_value_reg[3][0] | rst_IBUF         |                1 |              8 |
+|  clk_IBUF_BUFG                        | comm_module/Receptor/b_saved_act         | rst_IBUF         |                1 |             16 |
+|  clk_IBUF_BUFG                        | comm_module/Receptor/E[0]                | rst_IBUF         |                1 |             16 |
+|  clk_IBUF_BUFG                        | processor/programMemo/E[0]               | rst_IBUF         |                4 |             16 |
+| ~clk_IBUF_BUFG                        |                                          |                  |                4 |             22 |
+|  clk_IBUF_BUFG                        |                                          | rst_IBUF         |               10 |             42 |
++---------------------------------------+------------------------------------------+------------------+------------------+----------------+
+
+

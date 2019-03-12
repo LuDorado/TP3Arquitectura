@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.2 (64-bit)
+# SW Build 2348494 on Mon Oct  1 18:25:39 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Wed Dec 19 18:37:19 2018
+# Process ID: 15423
+# Current directory: /home/lu/github/TP3V33/TP3V33.runs/synth_1
+# Command line: vivado -log bip.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bip.tcl
+# Log file: /home/lu/github/TP3V33/TP3V33.runs/synth_1/bip.vds
+# Journal file: /home/lu/github/TP3V33/TP3V33.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source bip.tcl -notrace

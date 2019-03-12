@@ -1,0 +1,19 @@
+0.6
+2018.2
+Oct  1 2018
+18:29:25
+/home/lu/github/TP3V33/TP3V33.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+/home/lu/github/TP3V33/TP3V33.srcs/sim_1/imports/new/rx_control_ic.v,1545246204,verilog,,,,rx_control_ic,,,../../../../TP3V33.srcs/sources_1/ip/clk_wiz_0,,,,,
+/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/imports/new/brg.v,1552173237,verilog,,/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/new/control.v,,brg,,,../../../../TP3V33.srcs/sources_1/ip/clk_wiz_0,,,,,
+/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/imports/new/fifo_rx.v,1545235193,verilog,,/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/new/pc.v,,fifo,,,../../../../TP3V33.srcs/sources_1/ip/clk_wiz_0,,,,,
+/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/imports/new/rx.v,1545245428,verilog,,/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/imports/new/uart.v,,rx,,,../../../../TP3V33.srcs/sources_1/ip/clk_wiz_0,,,,,
+/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/imports/new/uart.v,1545085578,verilog,,/home/lu/github/TP3V33/TP3V33.srcs/sim_1/imports/new/rx_control_ic.v,,uart,,,../../../../TP3V33.srcs/sources_1/ip/clk_wiz_0,,,,,
+/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/new/adder.v,1545085531,verilog,,/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/new/alu_ic.v,,adder,,,../../../../TP3V33.srcs/sources_1/ip/clk_wiz_0,,,,,
+/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/new/alu_ic.v,1545254599,verilog,,/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/new/bip.v,,alu_ic,,,../../../../TP3V33.srcs/sources_1/ip/clk_wiz_0,,,,,
+/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/new/bip.v,1552176505,verilog,,/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/imports/new/brg.v,,bip,,,../../../../TP3V33.srcs/sources_1/ip/clk_wiz_0,,,,,
+/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/new/control.v,1545085543,verilog,,/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/new/cpu.v,,control,,,../../../../TP3V33.srcs/sources_1/ip/clk_wiz_0,,,,,
+/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/new/cpu.v,1545086460,verilog,,/home/lu/github/TP3V33/TP3V33.srcs/sources_1/new/cycles.v,,cpu,,,../../../../TP3V33.srcs/sources_1/ip/clk_wiz_0,,,,,
+/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/new/decoder.v,1545232209,verilog,,/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/imports/new/fifo_rx.v,,decoder,,,../../../../TP3V33.srcs/sources_1/ip/clk_wiz_0,,,,,
+/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/new/pc.v,1545085541,verilog,,/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/new/rom.v,,pc,,,../../../../TP3V33.srcs/sources_1/ip/clk_wiz_0,,,,,
+/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/new/rom.v,1552425875,verilog,,/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/imports/new/rx.v,,rom,,,../../../../TP3V33.srcs/sources_1/ip/clk_wiz_0,,,,,
+/home/lu/github/TP3V33/TP3V33.srcs/sources_1/new/cycles.v,1552425562,verilog,,/home/lu/github/TP3V33/TP3V33.srcs/sources_1/imports/sources_1/new/decoder.v,,cycles,,,../../../../TP3V33.srcs/sources_1/ip/clk_wiz_0,,,,,

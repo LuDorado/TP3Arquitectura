@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35ticpg236-1L" LaunchTime="1545255437">
+  <File Type="PA-TCL" Name="bip.tcl"/>
+  <File Type="RDS-DCP" Name="bip.dcp"/>
+  <File Type="REPORTS-TCL" Name="bip_reports.tcl"/>
+  <File Type="RDS-RDS" Name="bip.vds"/>
+  <File Type="RDS-UTIL-PB" Name="bip_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="bip_utilization_synth.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TP3V32/TP3V32.srcs/sources_1/new/adder.v"/>
+        <Attr Name="ImportTime" Val="1545085531"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/alu_ic.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TP3V32/TP3V32.srcs/sources_1/new/alu_ic.v"/>
+        <Attr Name="ImportTime" Val="1545094528"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/brg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TP3V32/TP3V32.srcs/sources_1/imports/new/brg.v"/>
+        <Attr Name="ImportTime" Val="1545094891"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/control.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TP3V32/TP3V32.srcs/sources_1/new/control.v"/>
+        <Attr Name="ImportTime" Val="1545085543"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/cpu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TP3V32/TP3V32.srcs/sources_1/new/cpu.v"/>
+        <Attr Name="ImportTime" Val="1545086460"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/cycles.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/decoder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TP3V32/TP3V32.srcs/sources_1/new/decoder.v"/>
+        <Attr Name="ImportTime" Val="1545085538"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/fifo_rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TP3V32/TP3V32.srcs/sources_1/imports/new/fifo_rx.v"/>
+        <Attr Name="ImportTime" Val="1545085610"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/pc.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TP3V32/TP3V32.srcs/sources_1/new/pc.v"/>
+        <Attr Name="ImportTime" Val="1545085541"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/rom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TP3V32/TP3V32.srcs/sources_1/new/rom.v"/>
+        <Attr Name="ImportTime" Val="1545085621"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/rx.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TP3V32/TP3V32.srcs/sources_1/imports/new/rx.v"/>
+        <Attr Name="ImportTime" Val="1545083492"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/uart.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TP3V32/TP3V32.srcs/sources_1/imports/new/uart.v"/>
+        <Attr Name="ImportTime" Val="1545085578"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/bip.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TP3V32/TP3V32.srcs/sources_1/new/bip.v"/>
+        <Attr Name="ImportTime" Val="1545093254"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="bip"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/new/pins.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../TP3V32/TP3V32.srcs/constrs_1/imports/new/pins.xdc"/>
+        <Attr Name="ImportTime" Val="1545090866"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
